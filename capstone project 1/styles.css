@@ -1,0 +1,413 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+header{
+    background: #01191D;
+    color: white;
+}
+
+.head-pad{
+    padding: 0px 90px;
+}
+
+header div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 6px;
+    gap: 200px;    
+}
+
+.left-header{
+    display: flex;
+    justify-content:space-around;
+    gap: 50px;
+}
+
+#logo{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.left-header ul {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    font-size: 15px;
+    align-items: center;
+
+}
+
+.expand{
+    width: 67px;
+}
+
+.right-header{
+    display: flex;
+    gap: 20px;
+}
+
+.right-header p{
+    padding-top: 12px;
+}
+
+.right-header div{
+    padding: 9px 16px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}
+
+.hero{
+    min-height: 120vh;
+    background-color: #01191D;
+    color: white;
+}
+
+.green-btn{
+    background-color: #70E0B4;
+    border-radius: 8px;
+    color: black;
+    border: none;
+}
+
+.green-btn:hover{
+    background-color: #5cad8c;
+}
+
+.icon-span{
+    margin-left: 5px;
+}
+
+#hover{
+    position:relative; 
+    border:1px 
+}
+
+#hover2{
+    position:absolute; 
+    left:50%;
+}
+
+#hover img{
+    margin-left:-50%; 
+    margin-top:-40%;
+    width: 1000px;
+}
+
+.features{
+    margin-top: 180px;
+}
+
+.list-text{
+    color: #5B5A55;
+}
+
+.essentials{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.images{
+    width: 700px;
+}
+
+
+.credit-card{
+    margin-left: -20px;
+}
+
+.credit-card-desc{
+    padding: 30px;
+}
+
+.white-button{
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.credit-card-desc h6{
+    width: 400px;
+}
+
+.credit-card-desc p{
+    font-size: 15px;
+    color: #605E57;
+}
+
+.analytics{
+    width: 72%;
+}
+
+.analytics-card{
+    background-color: #0C5E58;
+    color: white;
+}
+
+.analytics-card p{
+    opacity: 75%;
+    font-size: 14px;
+    
+}
+
+.btn-group button{
+    border: 1px solid white;
+    color: white;
+    font-size: 14px;
+    padding: 10px 27px;
+    border-radius: 4px;
+}
+
+.financial-card{
+    background-color: #242323;
+    color: white;
+}
+
+.financial-card p{
+    opacity: 75%;
+    font-size: 14px;
+}
+
+.upper-border{
+    border-top: 0.1px solid #CFCFCF;
+}
+
+.text-start{
+    font-weight: 600;
+}
+
+
+.intermediate{
+    min-height: 85vh;
+    background-color: #00544F;
+}
+
+.green-container h4{
+    color: white;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 63px;
+}
+
+.info{
+    border: none;
+}
+
+.info div{
+    color: white;
+}
+
+.info div h3{
+    font-size: 18px;
+}
+
+.info div p{
+    opacity: 75%;
+    font-size: 12px;
+}
+
+.gap-given{
+    width:85%;
+    margin:auto;
+    gap: 50px;
+}
+
+.dark-green{
+    min-height: 35vh;
+    background-color: #0A211F;
+}
+
+.green-container p{
+    color: white;
+    font-size: 20px;
+}
+
+.copyright{
+    font-size: 10px;
+}
+
+.headings{
+    color: #206D69;
+    text-transform: uppercase;
+}
+
+.coming-soon{
+    opacity: 35%;
+}
+
+.nav li{
+    font-size: 13px;
+}
+
+.podcast{
+    display: flex;
+    gap: 10px;
+}
+
+.podcast img{
+    width: 15px;
+    padding-bottom: 18px;
+}
+
+.startup{
+    font-size: 15px;
+}
+
+.socials{
+    display: flex;
+    gap: 20px;
+}
+
+.subscribe{
+    margin: auto;
+    margin-top: 20px;
+    width: 100%;
+}
+
+#newsletter1{
+    font-size: 14px;
+}
+
+.menu-btn{
+    display: none;
+}
+
+.menu{
+    justify-content: end;
+}
+
+.menu ul{
+    list-style-type: none;
+    padding-right: 25px;
+}
+
+.menu ul a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul li{
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+}
+
+.menu ul li:last-child{
+    margin-bottom: 0px;
+}
+
+@media (min-width: 750px) and (max-width:980px){
+    .nav-hide{
+        display: none;
+    }
+
+    .left-header ul{
+        display: none;
+    }
+
+    .menu-btn{
+        display: block;
+        width: 50px;
+    }
+
+    .head-pad{
+        padding: 0px 0px;
+    }
+
+    #logo{
+        padding-left: 10px;
+    }
+
+    .hero{
+        min-height: 70vh;
+        background-color: #01191D;
+        color: white;
+    }
+
+    #hover2 img{
+        width: 800px;
+    }
+
+    .credit-card{
+        margin-left: 0px;
+    }
+
+    .credit-card-desc{
+        padding: 0px;
+        padding-left: 24px;
+    }
+
+    .credit-card-desc h6{
+        width: 700px;
+    }
+    
+    .credit-card-desc p{
+        font-size: 20px;
+        color: #605E57;
+    }
+
+    .info div{
+        padding-left: 10px;
+    }
+
+    .info div h3{
+        font-size: 28px;
+    }
+
+    .info div p{
+        font-size: 18px;
+    }
+
+}
+
+
+@media (min-width: 320px) and (max-width: 601px){
+    .nav-hide{
+        display: none;
+    }
+
+    .left-header ul{
+        display: none;
+    }
+
+    .menu-btn{
+        display: block;
+        width: 50px;
+    }
+
+    .head-pad{
+        padding: 0px 0px;
+    }
+
+    #logo{
+        padding-left: 10px;
+        padding-top: 3px;
+        font-size: 22px;
+    }
+
+    .hero{
+        min-height: 70vh;
+        background-color: #01191D;
+        color: white;
+    }
+
+    #hover img{
+        margin-left:-50%; 
+        margin-top:-15%;
+        width: 350px;
+    }
+
+    .credit-card{
+        margin-left: 0px;
+    }
+
+}
